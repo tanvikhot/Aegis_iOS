@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		119B7FAA43C484A4DD57E4B4 /* Pods_Aegis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C5F8078D67A1601FA86C07C /* Pods_Aegis.framework */; };
+		1A51EAF92858AD763B5EA574 /* Pods_AegisTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE3F322656C5D1AD226514B6 /* Pods_AegisTests.framework */; };
+		22B9000022A3262900F4C85F /* AegisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9FFFF22A3262900F4C85F /* AegisTests.swift */; };
+		22B9000B22A3477F00F4C85F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22B9000A22A3477F00F4C85F /* GoogleService-Info.plist */; };
+		22B9000D22A357D500F4C85F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9000C22A357D500F4C85F /* LoginViewController.swift */; };
+		22B9000F22A419EB00F4C85F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9000E22A419EB00F4C85F /* ProfileViewController.swift */; };
+		22B9001122A42B7600F4C85F /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9001022A42B7600F4C85F /* FriendsViewController.swift */; };
+		22B9FFEB22A3262400F4C85F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9FFEA22A3262400F4C85F /* AppDelegate.swift */; };
+		22B9FFED22A3262400F4C85F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B9FFEC22A3262400F4C85F /* MainViewController.swift */; };
+		22B9FFF022A3262400F4C85F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B9FFEE22A3262400F4C85F /* Main.storyboard */; };
+		22B9FFF222A3262900F4C85F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B9FFF122A3262900F4C85F /* Assets.xcassets */; };
+		22B9FFF522A3262900F4C85F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22B9FFF322A3262900F4C85F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22B9FFFC22A3262900F4C85F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22B9FFDF22A3262400F4C85F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22B9FFE622A3262400F4C85F;
+			remoteInfo = Aegis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22B9000122A3262900F4C85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B9000A22A3477F00F4C85F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		22B9000C22A357D500F4C85F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		22B9000E22A419EB00F4C85F /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		22B9001022A42B7600F4C85F /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		22B9FFE722A3262400F4C85F /* Aegis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aegis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B9FFEA22A3262400F4C85F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22B9FFEC22A3262400F4C85F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		22B9FFEF22A3262400F4C85F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22B9FFF122A3262900F4C85F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22B9FFF422A3262900F4C85F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22B9FFF622A3262900F4C85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B9FFFB22A3262900F4C85F /* AegisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AegisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B9FFFF22A3262900F4C85F /* AegisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AegisTests.swift; sourceTree = "<group>"; };
+		360F6D15C24AF16F5ABF009E /* Pods-AegisTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AegisTests.release.xcconfig"; path = "Target Support Files/Pods-AegisTests/Pods-AegisTests.release.xcconfig"; sourceTree = "<group>"; };
+		393D77681DD29FC8FF0A7154 /* Pods-AegisTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AegisTests.debug.xcconfig"; path = "Target Support Files/Pods-AegisTests/Pods-AegisTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3C5F8078D67A1601FA86C07C /* Pods_Aegis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Aegis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB3904F0371E3E99F44A0F7E /* Pods-Aegis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aegis.release.xcconfig"; path = "Target Support Files/Pods-Aegis/Pods-Aegis.release.xcconfig"; sourceTree = "<group>"; };
+		CA298D0B157799CD5DCDE852 /* Pods-Aegis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aegis.debug.xcconfig"; path = "Target Support Files/Pods-Aegis/Pods-Aegis.debug.xcconfig"; sourceTree = "<group>"; };
+		EE3F322656C5D1AD226514B6 /* Pods_AegisTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AegisTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22B9FFE422A3262400F4C85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				119B7FAA43C484A4DD57E4B4 /* Pods_Aegis.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B9FFF822A3262900F4C85F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A51EAF92858AD763B5EA574 /* Pods_AegisTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B9FFDE22A3262400F4C85F = {
+			isa = PBXGroup;
+			children = (
+				22B9FFE922A3262400F4C85F /* Aegis */,
+				22B9FFFE22A3262900F4C85F /* AegisTests */,
+				22B9FFE822A3262400F4C85F /* Products */,
+				3A3751542BAC1722AD4BDDD7 /* Pods */,
+				248FE7B29B45F68B676E1226 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22B9FFE822A3262400F4C85F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22B9FFE722A3262400F4C85F /* Aegis.app */,
+				22B9FFFB22A3262900F4C85F /* AegisTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22B9FFE922A3262400F4C85F /* Aegis */ = {
+			isa = PBXGroup;
+			children = (
+				22B9FFEA22A3262400F4C85F /* AppDelegate.swift */,
+				22B9FFEC22A3262400F4C85F /* MainViewController.swift */,
+				22B9FFEE22A3262400F4C85F /* Main.storyboard */,
+				22B9FFF122A3262900F4C85F /* Assets.xcassets */,
+				22B9FFF322A3262900F4C85F /* LaunchScreen.storyboard */,
+				22B9FFF622A3262900F4C85F /* Info.plist */,
+				22B9000A22A3477F00F4C85F /* GoogleService-Info.plist */,
+				22B9000C22A357D500F4C85F /* LoginViewController.swift */,
+				22B9000E22A419EB00F4C85F /* ProfileViewController.swift */,
+				22B9001022A42B7600F4C85F /* FriendsViewController.swift */,
+			);
+			path = Aegis;
+			sourceTree = "<group>";
+		};
+		22B9FFFE22A3262900F4C85F /* AegisTests */ = {
+			isa = PBXGroup;
+			children = (
+				22B9FFFF22A3262900F4C85F /* AegisTests.swift */,
+				22B9000122A3262900F4C85F /* Info.plist */,
+			);
+			path = AegisTests;
+			sourceTree = "<group>";
+		};
+		248FE7B29B45F68B676E1226 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C5F8078D67A1601FA86C07C /* Pods_Aegis.framework */,
+				EE3F322656C5D1AD226514B6 /* Pods_AegisTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A3751542BAC1722AD4BDDD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA298D0B157799CD5DCDE852 /* Pods-Aegis.debug.xcconfig */,
+				BB3904F0371E3E99F44A0F7E /* Pods-Aegis.release.xcconfig */,
+				393D77681DD29FC8FF0A7154 /* Pods-AegisTests.debug.xcconfig */,
+				360F6D15C24AF16F5ABF009E /* Pods-AegisTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22B9FFE622A3262400F4C85F /* Aegis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B9000422A3262900F4C85F /* Build configuration list for PBXNativeTarget "Aegis" */;
+			buildPhases = (
+				5E04D457CA7AF50D065E75F2 /* [CP] Check Pods Manifest.lock */,
+				22B9FFE322A3262400F4C85F /* Sources */,
+				22B9FFE422A3262400F4C85F /* Frameworks */,
+				22B9FFE522A3262400F4C85F /* Resources */,
+				DBDE6C0B818615624461F0C1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aegis;
+			productName = Aegis;
+			productReference = 22B9FFE722A3262400F4C85F /* Aegis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22B9FFFA22A3262900F4C85F /* AegisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B9000722A3262900F4C85F /* Build configuration list for PBXNativeTarget "AegisTests" */;
+			buildPhases = (
+				EA0DCF4231A9D758E07C6062 /* [CP] Check Pods Manifest.lock */,
+				22B9FFF722A3262900F4C85F /* Sources */,
+				22B9FFF822A3262900F4C85F /* Frameworks */,
+				22B9FFF922A3262900F4C85F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22B9FFFD22A3262900F4C85F /* PBXTargetDependency */,
+			);
+			name = AegisTests;
+			productName = AegisTests;
+			productReference = 22B9FFFB22A3262900F4C85F /* AegisTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22B9FFDF22A3262400F4C85F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Tanvi Khot";
+				TargetAttributes = {
+					22B9FFE622A3262400F4C85F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					22B9FFFA22A3262900F4C85F = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 22B9FFE622A3262400F4C85F;
+					};
+				};
+			};
+			buildConfigurationList = 22B9FFE222A3262400F4C85F /* Build configuration list for PBXProject "Aegis" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22B9FFDE22A3262400F4C85F;
+			productRefGroup = 22B9FFE822A3262400F4C85F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22B9FFE622A3262400F4C85F /* Aegis */,
+				22B9FFFA22A3262900F4C85F /* AegisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22B9FFE522A3262400F4C85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B9FFF522A3262900F4C85F /* LaunchScreen.storyboard in Resources */,
+				22B9000B22A3477F00F4C85F /* GoogleService-Info.plist in Resources */,
+				22B9FFF222A3262900F4C85F /* Assets.xcassets in Resources */,
+				22B9FFF022A3262400F4C85F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B9FFF922A3262900F4C85F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E04D457CA7AF50D065E75F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Aegis-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBDE6C0B818615624461F0C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aegis/Pods-Aegis-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Aegis/Pods-Aegis-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Aegis/Pods-Aegis-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA0DCF4231A9D758E07C6062 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AegisTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22B9FFE322A3262400F4C85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B9000D22A357D500F4C85F /* LoginViewController.swift in Sources */,
+				22B9001122A42B7600F4C85F /* FriendsViewController.swift in Sources */,
+				22B9FFED22A3262400F4C85F /* MainViewController.swift in Sources */,
+				22B9000F22A419EB00F4C85F /* ProfileViewController.swift in Sources */,
+				22B9FFEB22A3262400F4C85F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B9FFF722A3262900F4C85F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B9000022A3262900F4C85F /* AegisTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22B9FFFD22A3262900F4C85F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22B9FFE622A3262400F4C85F /* Aegis */;
+			targetProxy = 22B9FFFC22A3262900F4C85F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22B9FFEE22A3262400F4C85F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22B9FFEF22A3262400F4C85F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22B9FFF322A3262900F4C85F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22B9FFF422A3262900F4C85F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22B9000222A3262900F4C85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22B9000322A3262900F4C85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22B9000522A3262900F4C85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA298D0B157799CD5DCDE852 /* Pods-Aegis.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5W6L8L34F;
+				INFOPLIST_FILE = Aegis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.khots.Aegis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22B9000622A3262900F4C85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB3904F0371E3E99F44A0F7E /* Pods-Aegis.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5W6L8L34F;
+				INFOPLIST_FILE = Aegis/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.khots.Aegis;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22B9000822A3262900F4C85F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 393D77681DD29FC8FF0A7154 /* Pods-AegisTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AH4DW2Y873;
+				INFOPLIST_FILE = AegisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.khots.AegisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aegis.app/Aegis";
+			};
+			name = Debug;
+		};
+		22B9000922A3262900F4C85F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 360F6D15C24AF16F5ABF009E /* Pods-AegisTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AH4DW2Y873;
+				INFOPLIST_FILE = AegisTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.khots.AegisTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aegis.app/Aegis";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22B9000422A3262900F4C85F /* Build configuration list for PBXNativeTarget "Aegis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B9000522A3262900F4C85F /* Debug */,
+				22B9000622A3262900F4C85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B9000722A3262900F4C85F /* Build configuration list for PBXNativeTarget "AegisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B9000822A3262900F4C85F /* Debug */,
+				22B9000922A3262900F4C85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B9FFE222A3262400F4C85F /* Build configuration list for PBXProject "Aegis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B9000222A3262900F4C85F /* Debug */,
+				22B9000322A3262900F4C85F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22B9FFDF22A3262400F4C85F /* Project object */;
+}
